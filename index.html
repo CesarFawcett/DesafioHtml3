@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida - César Fawcett</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styless.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="profile-photo" id="profile-photo">
+                <img src="assets/foto.png" alt="Foto de Cesar Fawcett">
+            </div>
+            <div class="header-content">
+                <h1>CESAR DAVID FAWCETT PEROZO</h1>
+                <h2>Desarrollador Backend</h2>
+            </div>
+            <button id="theme-toggle" class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </header>
+
+        <main class="main-content">
+            <section class="profile-section">
+                <div class="section-header">
+                    <i class="fas fa-user"></i>
+                    <h3>PERFIL</h3>
+                </div>
+                <div class="section-content">
+                    <p>Desarrollador backend con experiencia en Java, Spring, y bases de datos relacionales y no relacionales.
+                       Conocimientos sólidos en creación de entidades, capas de repositorio, servicios, y uso de herramientas como Git. 
+                       Actualmente ampliando habilidades en microservicios y desarrollo fronteral básico. 
+                       Capacidad para trabajar en equipo, resolver problemas y aprender nuevas tecnologías rápidamente.</p>
+                </div>
+            </section>
+
+            <div class="two-columns">
+                <section class="education-section">
+                    <div class="section-header">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>EDUCACIÓN</h3>
+                    </div>
+                    <div class="section-content">
+                        <h4>Ingeniería de Sistemas</h4>
+                        <p class="institution">Universidad del Magdalena</p>
+                        <p class="date">2015 - Presente</p>
+                        <h5>Cursos Destacados:</h5>
+                        <ul class="course-list">
+                            <li>Algoritmos y Programación</li>
+                            <li>Estructura de Datos I y II</li>
+                            <li>Programación Orientada a Objetos</li>
+                            <li>Bases de Datos</li>
+                            <li>Inteligencia Artificial</li>
+                            <li>Programación web</li>
+                            <li>Microservicios (en curso)</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="experience-section">
+                    <div class="section-header">
+                        <i class="fas fa-briefcase"></i>
+                        <h3>EXPERIENCIA LABORAL</h3>
+                    </div>
+                    <div class="section-content">
+                        <h4>Desarrollador Backend (Proyectos Académicos y Personales)</h4>
+                        <p class="date">2020 - Presente</p>
+                        <ul class="experience-list">
+                            <li>Desarrollo de aplicaciones backend utilizando Java y Spring Boot.</li>
+                            <li>Creación de APIs RESTful para servicios web.</li>
+                            <li>Implementación de bases de datos relacionales (MySQL) y no relacionales (MongoDB).</li>
+                            <li>Uso de Git para control de versiones y colaboración en equipo.</li>
+                            <li>Diseño de entidades y capas de repositorio para aplicaciones escalables.</li>
+                        </ul>
+                        
+                        <h5>Proyectos Destacados</h5>
+                        <div class="project">
+                            <h6>Sistema de Gestión de Inventarios</h6>
+                            <p class="tech"><strong>Tecnologías:</strong> Java, Spring Boot, MySQL</p>
+                            <p class="description">Desarrollo de un sistema backend para gestionar inventarios, con creación de APIs para consultas y actualizaciones.</p>
+                        </div>
+                        <div class="project">
+                            <h6>API para Gestión de Usuarios</h6>
+                            <p class="tech"><strong>Tecnologías:</strong> Java, Spring Boot, MongoDB</p>
+                            <p class="description">Implementación de una API RESTful para la gestión de usuarios, con autenticación y autorización.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="two-columns">
+                <section class="skills-section">
+                    <div class="section-header">
+                        <i class="fas fa-code"></i>
+                        <h3>COMPETENCIAS</h3>
+                    </div>
+                    <div class="section-content">
+                        <div class="skill">
+                            <span class="skill-name">Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">Spring</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">MySQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="50"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">HTML</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="50"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="50"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="contact-section">
+                    <div class="section-header">
+                        <i class="fas fa-id-card"></i>
+                        <h3>CONTACTO</h3>
+                    </div>
+                    <div class="section-content">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>57 3006240053</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-language"></i>
+                            <span>Español (nativo), Inglés (intermedio)</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/CesarFawcett" target="_blank">github.com/CesarFawcett</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:cesarfawcett20@gmail.com">cesarfawcett20@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Santa Marta, Colombia</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <section class="hobbies-section">
+                <div class="section-header">
+                    <i class="fas fa-heart"></i>
+                    <h3>AFICIONES</h3>
+                </div>
+                <div class="section-content">
+                    <div class="hobbies-grid">
+                        <div class="hobby-item">
+                            <i class="fas fa-laptop-code"></i>
+                            <span>Programación de proyectos personales</span>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="fas fa-book"></i>
+                            <span>Aprendizaje continuo</span>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="fas fa-book-open"></i>
+                            <span>Lectura técnica</span>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="fas fa-cube"></i>
+                            <span>Diseño de personajes 3D</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
